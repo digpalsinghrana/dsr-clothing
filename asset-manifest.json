@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/dsr-clothing/static/css/main.14c9144c.chunk.css",
+    "main.js": "/dsr-clothing/static/js/main.9e2937b9.chunk.js",
+    "main.js.map": "/dsr-clothing/static/js/main.9e2937b9.chunk.js.map",
+    "runtime-main.js": "/dsr-clothing/static/js/runtime-main.923db5b4.js",
+    "runtime-main.js.map": "/dsr-clothing/static/js/runtime-main.923db5b4.js.map",
+    "static/js/2.fd2b2257.chunk.js": "/dsr-clothing/static/js/2.fd2b2257.chunk.js",
+    "static/js/2.fd2b2257.chunk.js.map": "/dsr-clothing/static/js/2.fd2b2257.chunk.js.map",
+    "index.html": "/dsr-clothing/index.html",
+    "static/css/main.14c9144c.chunk.css.map": "/dsr-clothing/static/css/main.14c9144c.chunk.css.map",
+    "static/js/2.fd2b2257.chunk.js.LICENSE.txt": "/dsr-clothing/static/js/2.fd2b2257.chunk.js.LICENSE.txt",
+    "static/media/crown.5e2aaa89.svg": "/dsr-clothing/static/media/crown.5e2aaa89.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.923db5b4.js",
+    "static/js/2.fd2b2257.chunk.js",
+    "static/css/main.14c9144c.chunk.css",
+    "static/js/main.9e2937b9.chunk.js"
+  ]
+}
