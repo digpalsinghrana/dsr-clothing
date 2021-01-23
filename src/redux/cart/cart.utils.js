@@ -1,3 +1,5 @@
+import CartItem from "../../components/cart-item/cart-item.component";
+
 export const addItemToCart = (cartItems, cartItemToAdd) => {
 
     //find method will return undefined if item is not present in cartItems
@@ -15,4 +17,19 @@ export const addItemToCart = (cartItems, cartItemToAdd) => {
 
     //if new product selected, then adding that in the cart with quantity property field
     return [...cartItems, {...cartItemToAdd, quantity : 1}];
+};
+
+export const removeItemFromCart= (cartItems, cartItemToRemove) => {
+
+    const existingCartItem= cartItems.find(cartItem=> cartItem.id === cartItemToRemove.id);
+
+    if(existingCartItem.quantity === 1){
+        return cartItems.filter(cartItem => cartItem.id !== cartItemToRemove.id)
+    }
+
+    return cartItems.map(cartItem =>
+        cartItem.id === cartItemToRemove.id
+        ? {...cartItem, quantity : cartItem.quantity - 1}
+        : cartItem
+    );
 };
