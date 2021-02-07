@@ -1,6 +1,5 @@
 {
   "name": "dsr-clothing",
-  // "homepage": "https://digpalsinghrana.github.io/dsr-clothing",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
